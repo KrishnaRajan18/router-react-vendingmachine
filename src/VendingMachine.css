@@ -1,0 +1,47 @@
+.VendingMachine {
+  padding-top: 40px;
+}
+
+.VendingMachine-container {
+  display: grid;
+
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.VendingMachine-msg {
+  padding: 10px;
+  max-width: 250px;
+  margin: 0 auto;
+  color: rgb(29, 21, 21);
+  background-color: rgba(250, 239, 239, 0.3);
+}
+
+.VendingMachine-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.VendingMachine-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  background-color: rgba(250, 244, 244, 0.3);
+
+  margin: 0 auto;
+}
+
+.VendingMachine-nav-item {
+  margin-bottom: 5px;
+  color: rgb(116, 50, 50);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.VendingMachine-nav-item:hover {
+  color: rgb(241, 241, 231);
+}
