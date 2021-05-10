@@ -5,7 +5,7 @@ import "./VendingMachine.css";
 const VendingMachine = () => {
   return (
     <div className="VendingMachine">
-      <h1>React Vending Machine</h1>
+      <h1>Vending Machine</h1>
       <div className="VendingMachine-container">
         <h4 className="VendingMachine-msg">
           Hey there! I am a vending machine, what do you want??
